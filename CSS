@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    margin: 10px;
+    border: #000;
+    background-image: url("home.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+    margin:0px;
+    
+}
+header div{
+    display: inline;
+}
+header p{
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+p.Logo{
+    font-size :larger;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    margin-left: 30px;
+    top: 25px;
+}
+.navbar{
+    font-size: large;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    margin-left:70%;
+    padding-right: 50px;
+}
+nav li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: larger;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+    border-radius: 2px;
+    cursor: pointer;
+}
+nav li a:hover{
+    background-color: transparent;
+    color: blue;
+    transition: .2s;
+    text-decoration: underline;
+}
+.main{
+    padding: 10px;
+    margin: 10px;
+}
+.one{
+    top: 30px;
+    margin-left:200px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #fff;
+    border:1px solid blue;
+    border-radius: 15px;
+    padding:0px 10px;
+    text-align: left;
+}
+h1{
+    margin-top: 80px;
+    margin-left: 170px;
+    width: 450px;
+    font-size: xx-large;
+    font-weight: 800;
+    color: #fff;
+}
+.main button{
+    margin-top: 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-left: 300px;
+    height: 30px;
+    width: auto;
+}
+button:hover{
+    color: darkblue;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+.two{
+    top: 30px;
+    color: #fff;
+    margin-left: 180px;
+}
+#About{
+    background-color: #6A9AB0;
+    margin: 0px;
+    height: 170px;
+    padding: 20px;
+    width: 100%;}
+#About h3{
+    top: 40px;
+    margin: 10px;
+    margin-left: 50px;
+    color: darkblue;
+    font-size: larger;   
+}
+#About p{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    width:70%;
+    margin-left: 150px;
+    text-indent: 20px;
+    line-height: 1.5;
+}
+#speaker h3{
+    color: darkblue;
+    margin: 10px;
+    font-size: larger;
+    margin-left: 100px;
+}
+#speaker .inner{
+    display: flex;
+    margin: 10px;
+    margin-left: 200px;
+}
+.image img{
+    height: 70px;
+    width: 80px;
+}
+#speaker .image{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+}
+#learn{
+    display: flex;
+}
+.learn{
+    width: 58%;
+}
+.attend{
+    width: 42%;
+}
+li p{
+    text-indent: 40px;
+}
+#learn strong{
+    color:#9400FF;
+}
+#learn h3{
+    color: darkblue;
+    margin: 10px;
+    font-size: larger;
+    margin-left: 100px;
+
+}
+#learn ul li{
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: 2.5; 
+}
+#contact{
+    background-color:#6A9AB0;
+    width: 100%;
+    height: 100px;
+}
+footer h3{
+    margin-left: 50px;
+    color: darkblue;
+}
+.con{
+    padding: 10px;
+    margin-left: 60%;
+    font-size: larger;
+}
+footer p{
+    display: inline;
+    margin-left: 80px;
+}
